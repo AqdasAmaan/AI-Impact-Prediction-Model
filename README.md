@@ -28,7 +28,7 @@ The AI Nexus Dashboard was developed to:
 ## 🛠️ Technical Implementation
 
 ### Architecture
-\`\`\`
+```
 AI Nexus Dashboard/
 ├── app.py               # Main application entry point
 ├── assets/              # Static assets and styling
@@ -48,7 +48,7 @@ AI Nexus Dashboard/
 │   ├── data_processing.ipynb # Data cleaning notebook
 │   └── model_training.ipynb  # ML model development
 └── README.md            # This file
-\`\`\`
+```
 
 ### Key Features
 - **Interactive Visualizations**: Plotly-based charts with hover details
