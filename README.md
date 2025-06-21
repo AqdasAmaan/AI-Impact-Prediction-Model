@@ -66,15 +66,14 @@ AI Nexus Dashboard/
 ## 🚀 Installation & Usage
 
 ### Prerequisites
-\`\`\`bash
 Python 3.9 or higher
 pip package manager
-\`\`\`
+
 
 ### Installation Steps
-\`\`\`bash
+
 # Clone the repository
-git clone https://github.com/AqdasAmaan/AI-Impact-Prediction-Model.git
+git clone https://github.com/AqdasAmaan/AI-Impact-Prediction-Model.git <br>
 cd AI-Impact-Prediction-Model
 
 # Install required packages
@@ -82,7 +81,7 @@ pip install dash plotly pandas numpy scikit-learn dash-bootstrap-components
 
 # Run the application
 python app.py
-\`\`\`
+
 
 ### Access the Dashboard
 - Open your browser to `http://localhost:8050`
