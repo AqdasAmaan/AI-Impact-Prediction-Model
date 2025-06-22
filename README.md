@@ -2,6 +2,8 @@
 
 A comprehensive data science dashboard for analyzing AI impact on job markets, built with Python Dash and featuring interactive visualizations, predictive modeling, and a clean minimalist interface.
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit-blue?style=for-the-badge&logo=rocket)](https://ai-nexus-116f.onrender.com)
+
 ## 🎯 Project Goals
 
 The AI Nexus Dashboard was developed to:
