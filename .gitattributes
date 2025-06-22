@@ -1,0 +1,8 @@
+# Ignore Jupyter notebooks in language stats
+*.ipynb linguist-vendored
+
+# Force detection of Python as main language
+*.py linguist-language=Python
+
+# Optional: force recognition of CSS
+*.css linguist-language=CSS
