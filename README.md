@@ -20,7 +20,7 @@ The AI Nexus Dashboard was developed to:
 #### 1. Data Cleaning (`data_processing.ipynb`)
 
 # Key cleaning operations performed:
-- Removed duplicate entries (347 duplicates found)
+- Removed duplicate entries 
 - Standardized job titles and industry categories
 - Handled missing values in salary and location fields
 - Normalized skill requirements formatting
@@ -32,34 +32,33 @@ The AI Nexus Dashboard was developed to:
 ### Architecture
 ```
 AI Nexus Dashboard/
-├── app.py               # Main application entry point
-├── assets/              # Static assets and styling
-│   ├── style.css        # Global styles
-│   ├── sidebar.css      # Navigation styling
-│   ├── dashboard.css    # Dashboard-specific styles
-│   └── icons/           # UI icons and graphics
-├── pages/               # Multi-page application structure
-│   ├── dashboard.py     # Main dashboard page
-│   ├── role_overview.py # Role analysis page
-│   └── about.py         # About page
-├── model/               # Machine learning components
-│   └── utils.py         # Model utilities and predictions
-├── data/                # Data files and notebooks
-│   ├── Dataset_1.csv    # Original dataset
-│   ├── processed_dataset.csv # Cleaned data
-│   ├── data_processing.ipynb # Data cleaning notebook
-│   └── model_training.ipynb  # ML model development
-└── README.md            # This file
+├── app.py                         # Main application entry point
+├── assets/                        # Static assets and styling
+│   ├── style.css                  # Global styles
+│   ├── sidebar.css                # Navigation styling
+│   ├── dashboard.css              # Dashboard-specific styles
+│   └── icons/                     # UI icons and graphics
+├── pages/                         # Multi-page application structure
+│   ├── dashboard.py               # Main dashboard page
+│   ├── role_overview.py           # Role analysis page
+│   └── about.py                   # About page
+├── model/                         # Machine learning components
+│   └── utils.py                   # Model utilities and predictions
+├── data/                          # Data files and notebooks
+│   ├── Dataset_1.csv              # Original dataset
+│   ├── processed_dataset.csv      # Cleaned data
+│   ├── data_processing.ipynb      # Data cleaning notebook
+│   └── model_training.ipynb       # ML model development
+└── README.md                      # This file
 ```
 
 ### Key Features
-- **Interactive Visualizations**: Plotly-based charts with hover details
 - **Real-time Predictions**: ML model integration for job risk assessment
 - **Responsive Design**: Mobile-friendly minimalist interface
 - **Multi-page Navigation**: Organized content structure
 
 ### Technology Stack
-- **Backend**: Python 3.8+, Dash 2.14+
+- **Backend**: Python 3.9+, Dash 2.14+
 - **Data Processing**: Pandas, NumPy, Scikit-learn
 - **Visualization**: Plotly, Dash Bootstrap Components
 - **Styling**: Custom CSS with minimalist black/white theme
@@ -79,7 +78,7 @@ git clone https://github.com/AqdasAmaan/AI-Impact-Prediction-Model.git <br>
 cd AI-Impact-Prediction-Model
 
 # Install required packages
-pip install requirements.txt
+pip install -r requirements.txt
 
 # Run the application
 python app.py
