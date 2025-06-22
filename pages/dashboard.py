@@ -13,7 +13,7 @@ dash.register_page(__name__, path='/')
 
 app = dash.get_app()
 
-dataset_path = r'D:\Mini-Project\Advanced Visualization Dashboard\AINexus\data\processed_dataset.csv'
+dataset_path = r'data\processed_dataset.csv'
 
 # Load all processed data for cluster information
 processed_data = load_and_process_data(dataset_path)
