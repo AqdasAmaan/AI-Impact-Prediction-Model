@@ -77,7 +77,7 @@ git clone https://github.com/AqdasAmaan/AI-Impact-Prediction-Model.git <br>
 cd AI-Impact-Prediction-Model
 
 # Install required packages
-pip install dash plotly pandas numpy scikit-learn dash-bootstrap-components
+pip install requirements.txt
 
 # Run the application
 python app.py
