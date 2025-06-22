@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import dash
 from dash import dcc, html, Input, Output, callback
@@ -13,7 +14,10 @@ dash.register_page(__name__, path='/')
 
 app = dash.get_app()
 
-dataset_path = r'data\processed_dataset.csv'
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+print(BASE_DIR)
+
+dataset_path = os.path.join(BASE_DIR, 'data', 'processed_dataset.csv')
 
 # Load all processed data for cluster information
 processed_data = load_and_process_data(dataset_path)
